@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+	<title>Juicy Hearty</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if ($(window).scrollTop()) {
+				$('nav').addClass('black');
+			}
+			else
+			{
+				$('nav').removeClass('black');
+			}
+		})
+		$(document).ready(function(){
+			$(" .menu h4").click(function(){
+				$("nav ul").toggleClass("active")
+			})
+		})
+	</script>
+</head>
+<body>
+	<div class="responsive-bar">
+		<div class="logo">
+			<img src="./images/Juice Hearty-logo-white.png">
+		</div>
+
+		<div class="menu">
+			<h4>Menu</h4>
+		</div>
+	</div>
+	
+	<nav>
+		<div class="logo">
+			<img src="./images/Juice Hearty-logo-white.png">
+		</div>
+	<!-- <ul class="active"> -->
+		<ul>
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">Our Drinks</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	</nav>
+	<section class="sec1"></section>
+	<section class="content">
+		<h1>Healthy Smoothies guaranteed to satisfy your sweet tooth.</h1>
+		<p>OATMEAL COOKIE DOUGH SMOOTHIE<br><br>
+		This thick and creamy oatmeal cookie dough smoothie is reminiscent of a comforting oatmeal cookie!
+		</p>
+</section>
+	<section class="sec2"></section>
+		<section class="content">
+		<h1>What is Lorem ipsum?</h1>
+		<p>
+			Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+		<br>
+		“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+		The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+		<br>
+		The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum
+	</p>
+</section>
+	<section class="sec3"></section>
+		<section class="content">
+		<h1>What is Lorem ipsum?</h1>
+		<p>
+			Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+		<br>
+		“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+		The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+		<br>
+		The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum
+	</p>
+</section>
+</body>
+</html>
